@@ -2,6 +2,7 @@ import sympy as sp
 import const
 import current
 
+#t for the servo angle of each servo
 t1, t2, t3, t4= sp.symbols('t1 t2 t3 t4')
 
 thetaParam = sp.Matrix([t1, t2, t3, t4]).T
